@@ -4,8 +4,7 @@
 
 ## アプリケーション
 
-- Windowsのチートシート
-    - タイマーコマンドなど
+- [Windows](Windows.md)のチートシート
 - [Visual Studio Code](VisualStudioCode.md)のチートシート
 - Teamsのチートシート
 - Gitのチートシート
