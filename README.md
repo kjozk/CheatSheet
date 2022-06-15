@@ -12,10 +12,10 @@
 
 ## 言語
 
-- [Markdownのチートシート](Markdown.md)
+- [Markdown](Markdown.md)のチートシート
 - Mermaidのチートシート
 - PlantUMLのチートシート
-- [Pythonのチートシート](Python.md)
+- [Python](Python.md)のチートシート
 
 ## 設計
 

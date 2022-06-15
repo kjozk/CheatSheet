@@ -9,10 +9,12 @@ Pythonは経験が浅いので、いろいろコピペ用
 
 ## ライブラリー
 
+### datetime
+
 ### SQLite3
 
 ### OpenPyXL
 
-### datetime
+### Pandas
 
 ### Matplotlib
