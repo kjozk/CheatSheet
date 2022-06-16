@@ -1,6 +1,6 @@
 # 折れ線グラフ
 import numpy
-import matplotlib.pyplot
+from matplotlib import pyplot
 
 xs = numpy.linspace(0, 1, 62)
 ys = numpy.array([
@@ -12,5 +12,5 @@ ys = numpy.array([
     0.390, 0.383, 0.383, 0.383, 0.386, 0.375, 0.370, 0.371, 0.363,
     0.361, 0.361, 0.355, 0.355, 0.355, 0.346, 0.346, 0.358])
 
-matplotlib.pyplot.plot(xs, ys)
-matplotlib.pyplot.show()
+pyplot.plot(xs, ys)
+pyplot.show()
