@@ -14,7 +14,7 @@
 - [Markdown](Markdown.md)のチートシート
 - Mermaidのチートシート
 - PlantUMLのチートシート
-- [Python](Python.md)のチートシート
+- [Python](Python/README.md)のチートシート
 
 ## 設計
 
