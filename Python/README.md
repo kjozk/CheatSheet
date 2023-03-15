@@ -6,14 +6,19 @@ https://docs.python.org/ja/3/contents.html
 
 ## 基本構文
 
+### 算術演算子
 
-- [import](import.md)
+
+### import
+外部モジュールを取り込む
+```Python
+import sys
+```
+ [詳細](import.md)
 
 
 
 ## ライブラリー
-
-### datetime
 
 ### SQLite3
 

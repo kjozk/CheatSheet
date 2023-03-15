@@ -1,8 +1,8 @@
 # import
 
-ライブラリをインポートする。
+モジュールをインポートする。
 
-## 一般的な書き方
+## 基本的な書き方
 
 ```Python
 import datetime
@@ -15,14 +15,14 @@ import datetime
 year = datetime.MAXYEAR              # 定数へアクセスできる
 days = datetime.timedelta(days=7)    # クラスへアクセスできる
 ```
-datetimeモジュールには定義されていないが、グローバル関数があればそれも呼び出すことができる。
+`datetime`には定義されていないが、グローバル関数があればそれも呼び出すことができる。
 
 ## 識別子を絞り込む
 
 ```Python
 from datetime import timedelta
 ```
-datetimeモジュールに属する[timedelta](https://docs.python.org/ja/3/library/datetime.html#datetime.timedelta)オブジェクトを使いたいときに書く。
+`datetime`に属する[timedelta](https://docs.python.org/ja/3/library/datetime.html#datetime.timedelta)オブジェクトを使いたいときに書く。
 
 
 ```Python
@@ -42,7 +42,7 @@ days = timedelta(days=7)
 ```Python
 import datetime.timedelta as td
 ```
-これもtimedeltaクラスが使えるが`td`という別名を付けている。
+これも`timedelta`が使えるが`td`という別名を付けている。
 
 ### 使用例
 ```Python
@@ -66,4 +66,4 @@ days = timedelta(days=7)
 import datetime.timedelta as td
 days = td(days=7)
 ```
-書き方は違うが、どれもほぼ同じ動作する。
+書き方は違うが、どれも同じ動作する。
