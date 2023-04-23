@@ -442,13 +442,11 @@ GPT-3.5モデルは、自然言語やコードを理解し、生成すること�
 
 [エンベッディングを作成](https://platform.openai.com/docs/guides/embeddings)したり、[テキストを編集](https://platform.openai.com/docs/guides/completion/editing-text)するためのエンドポイントでは、それぞれに特化したモデル群を使用しています。
 
-### 適切なモデルを見つける - Finding the right model
+#### 適切なモデルを見つける - Finding the right model
 
 `gpt-3.5-turbo`で実験することは、APIが何をすることができるかを知るための素晴らしい方法です。何を達成したいのかがわかったら、gpt-3.5-turboや他のモデルにとどまり、その能力を中心に最適化を試みることができます。
 
 異なるモデルを並べて実行し、出力、設定、応答時間を比較できる[GPT比較ツール](https://gpttools.com/comparisontool)を使用し、データをExcelスプレッドシートにダウンロードすることができます。
-
-
 
 ### DALL·E `Beta`
 
@@ -520,4 +518,15 @@ For more, visit our guide on working with Codex.
 ## Tutorials
 
 実際のAIアプリをステップバイステップで構築することで、OpenAI APIを使い始めることができます。
+
+### [Website Q&A with Embeddings](Tutorials/Website%20Q%26A%20with%20Embeddings.md)
+Webサイトに関する質問に答えるAIを構築する方法をご紹介します。
+
+### Coming soon
+ローカルファイルに関する質問に答えることができるAIの構築とデプロイ方法についてご紹介します。
+
+### Coming soon
+複数のナレッジベースを理解するAIチャットボットの構築と導入方法についてご紹介します。
+
+もっとアイデアをお探しですか？[Examples gallery](https://platform.openai.com/examples)やGitHubの[OpenAI Cookbook](https://github.com/openai/openai-cookbook)をチェックしてみてください。
 
