@@ -5,9 +5,9 @@
 
 ## はじめに - Getting started
 
-このチュートリアルでは、PythonとGitHubの基本的な知識があると便利です。このチュートリアルに入る前に、O[penAIのAPIキーを設定](https://platform.openai.com/docs/api-reference/introduction)し、クイックスタートチュートリアルを歩いてみてください。これにより、APIを最大限に活用する方法について、直感的に理解することができます。
+このチュートリアルでは、PythonとGitHubの基本的な知識があると便利です。このチュートリアルに入る前に、[OpenAIのAPIキーを設定](https://platform.openai.com/docs/api-reference/introduction)し、クイックスタートチュートリアルを歩いてみてください。これにより、APIを最大限に活用する方法について、直感的に理解することができます。
 
-Pythonは、OpenAI、Pandas、transformers、NumPy、その他の一般的なパッケージとともに、主なプログラミング言語として使用されています。このチュートリアルの作業で何か問題が発生した場合は、[OpenAIコミュニティフォーラム](OpenAI Community Forum)で質問してください。
+Pythonは、OpenAI、Pandas、transformers、NumPy、その他の一般的なパッケージとともに、主なプログラミング言語として使用されています。このチュートリアルの作業で何か問題が発生した場合は、[OpenAIコミュニティフォーラム](https://community.openai.com/)で質問してください。
 
 コードから始めるには、[GitHubにあるこのチュートリアルの全コード](https://github.com/openai/openai-cookbook/tree/main/apps/web-crawl-q-and-a)をクローンしてください。または、Jupyterノートブックに各セクションをコピーして、コードをステップバイステップで実行したり、ただ読み進めることもできます。問題を回避する良い方法は、新しい仮想環境をセットアップし、以下のコマンドを実行して必要なパッケージをインストールすることです：
 
